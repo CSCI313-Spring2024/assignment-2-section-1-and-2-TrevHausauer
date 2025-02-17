@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#home {
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("/images/banner.jpg") center/cover no-repeat;
+}
+
+section {
+  padding: 60px 0;
+}
+
+.card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#home">Trev's Website</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header id="home">
+      <div>
+        <h1>Welcome to My Website</h1>
+        <p>
+          My name is Trev, I'm a Junior Computer Science major at NDSU! Feel
+          free to explore this site!
+        </p>
+      </div>
+    </header>
+
+    <section id="about" class="container py-5">
+      <h2>About Me</h2>
+      <p>
+        My name is Trev, I'm a Junior Computer Science major at NDSU! I started
+        my higher academic journey in 2020 after graduating from Davies High
+        School in Fargo amidst the COVID-19 pandemic. I first went to Bismarck
+        State College and got my Applied Associate's of Science degree in 2022.
+        I took a year break and started going to NDSU to pusure a Bachelor's in
+        Computer Science. I am still on this academic journey and hope for the
+        best!
+      </p>
+      <h2>List of Favorite Sites</h2>
+      <ol>
+        <li><a href="https://google.com">Google</a></li>
+        <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+        <li><a href="https://trevhausauer.com">trevhausauer.com</a></li>
+      </ol>
+      <h2>List of Favorite Movies</h2>
+      <ul>
+        <li>The Shawshank Redemption</li>
+        <li>Her</li>
+        <li>Spider-Man: Into the Spider-Verse</li>
+      </ul>
+      <h2>List of Favorite Hobbies</h2>
+      <ol>
+        <li>Spending Time With My Girlfriend</li>
+        <li>Playing Video Games</li>
+        <li>Watching Movies</li>
+      </ol>
+      <h2>Class/Personal Schedule From 11AM-3PM CST</h2>
+      <table style="width: 75%">
+        <tr border-collapse: collapse>
+          <th>Time</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+        <tr>
+          <th>11:00-12:00</th>
+          <th>CSCI 313</th>
+          <th>CSCI 372</th>
+          <th>CSCI 313</th>
+          <th>CSCI 372</th>
+          <th>CSCI 313</th>
+        </tr>
+        <tr>
+          <th>12:00-1:00</th>
+          <th>Lunch on Campus</th>
+          <th>Home</th>
+          <th>Lunch on Campus</th>
+          <th>Home</th>
+          <th>Lunch on Campus</th>
+        </tr>
+        <tr>
+          <th>1:00-2:00</th>
+          <th>CSCI 374</th>
+          <th>Home</th>
+          <th>CSCI 374</th>
+          <th>Home</th>
+          <th>CSCI 374</th>
+        </tr>
+        <tr>
+          <th>2:00-3:00</th>
+          <th>Home</th>
+          <th>Home</th>
+          <th>Home</th>
+          <th>Home</th>
+          <th>Home</th>
+        </tr>
+      </table>
+    </section>
+
+    <section id="portfolio" class="container py-5">
+      <h2>Portfolio/Projects</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="/images/project1.png" class="card-img-top" alt="Project 1" />
+            <div class="card-body">
+              <h5 class="card-title">Canine Connect</h5>
+              <p class="card-text">
+                This is a basic dog adoption web application made in a team with
+                three other people using the Agile methodology. Complete with
+                Login Authentication capabilities.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="/images/project2.png" class="card-img-top" alt="Project 2" />
+            <div class="card-body">
+              <h5 class="card-title">trevhausauer.com</h5>
+              <p class="card-text">
+                This is a project I used to learn about better tools for modern
+                web applications on my own time outside of University
+                curriculum.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="/images/project3.png" class="card-img-top" alt="Project 3" />
+            <div class="card-body">
+              <h5 class="card-title">
+                Basic Python LLM (Large Language Model) Script
+              </h5>
+              <p class="card-text">
+                Ollama is a fantastic free, open-source tool that allows LLMs to
+                run locally.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container py-5">
+      <h2>Contact</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" s class="form-control" id="name" required />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" required />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea
+            name="form-control"
+            id="message"
+            rows="3"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 My Website. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
